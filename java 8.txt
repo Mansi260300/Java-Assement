@@ -1,0 +1,43 @@
+//Print even numbers using for
+public class EvenNumbersFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		for (int i = 2; i <= 10; i += 2) {
+			System.out.println(i);
+		}
+        
+		// even numbers using while
+       
+public class EvenNumbersWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int i = 2;
+	        while (i <= 10) {
+	            System.out.println(i);
+	            i += 2;
+	        }
+
+      //Even numbers using dowhile
+
+public class EvenNumbersDoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 2;
+        do {
+            System.out.println(i);
+            i += 2;
+        } while (i <= 10);
+	}
+
+}
+
+Output:
+2
+4
+6
+8
+10
+
